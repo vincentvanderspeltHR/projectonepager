@@ -1173,9 +1173,8 @@ hr.hr-border {
  Team Style
 ***********************************************/
 .team {
-  padding: 65px 0 0;
+  padding: 65px;
   background: #0f0f0f;
-  overflow-x: hidden;
 }
 
 .team-member {
