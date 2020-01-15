@@ -2238,6 +2238,12 @@ form .padding-left-15 {
   .navigation .navbar-toggle span {
     background: #fff;
   }
+
+  .carousel-inner {
+    height: 300px;
+    width: 100%;
+  }
+
   .hero-area h1 {
     font-size: 35px;
   }
