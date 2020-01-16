@@ -390,6 +390,12 @@ button:hover, button:focus {
   max-height: 30%;
 }
 
+.downArrow {
+  position: relative;
+  padding: 20px;
+  max-width: 30%;
+}
+
 .header_video {
   position: relative;
 }
