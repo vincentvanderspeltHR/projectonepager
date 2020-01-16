@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="plugins/animate/animate.css">
     <!-- slick slider -->
     <link rel="stylesheet" href="plugins/slick/slick.css">
-
+    <!-- Flickity carousel slider -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.1/dist/flickity.css">
     <!-- Revolution Slider -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -32,6 +33,7 @@
       /* Optional: Makes the sample page fill the window. */
     </style>
     <script src="plugins/modernizr.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.2.1/dist/flickity.pkgd.js"></script>
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -149,14 +151,33 @@
         </div>
       </div>
     </div>
+
+
+
+
+<!-- Flickity HTML init -->
+<div class="carousel"
+  data-flickity='{ "freeScroll": true }'>
+  <div class="carousel-cell"><img src="images/01.svg"></div>
+  <div class="carousel-cell"><img src="images/02.svg"></div>
+  <div class="carousel-cell"><img src="images/03.svg"></div>
+  <div class="carousel-cell"><img src="images/01.svg"></div>
+  <div class="carousel-cell"><img src="images/02.svg"></div>
+</div>
+
+
+
+
     <!-- Case Study Description
       bottom section -->
     <div class="case-study-content">
       <div class="container">
           <div class="col-md-6 col-md-offset-6">
             <!-- inner sub-title -->
+            <div class="text-center">
+              <h4 class="title">Research</h4>
+            </div>
             <div class="content">
-              <h4 class="inner-title">Research</h4>
               <p>Stakeholdermap + Customer Journey 01</p>
               <br>
               <p>
