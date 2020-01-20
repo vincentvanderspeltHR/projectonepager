@@ -11,8 +11,8 @@
 /* Global Body Style */
 body {
   color: #fff;
-  background: #111111;
-  font-family: "Roboto", sans-serif;
+  background: rgb(252, 232, 220);
+  font-family: "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -20,16 +20,20 @@ body {
 
 /* Heading Fonts Size */
 h1, h2, h3 {
-  font-family: "Roboto", serif;
+  font-family: "Helvetica", sans-serif;
   color: rgb(007, 053, 147);
 }
 
-h1, h2 {
+h1, {
+  font-weight: 1000;
+}
+
+h2 {
   font-weight: 700;
 }
 
 h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 h1 {
@@ -49,7 +53,8 @@ h4 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica", sans-serif;
+  color: #000;
 }
 
 /*---------- --------------
@@ -393,7 +398,7 @@ button:hover, button:focus {
 
 .headerLogo {
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0,);
   color: #f1f1f1;
   padding: 20px;
   max-width: 30%;
@@ -640,7 +645,7 @@ div.loading {
  */
 .footer {
   padding: 65px 0 40px;
-  background: #111111;
+  background: rgb(252, 232, 220);
   font-size: 16px;
   line-height: 29px;
   color: rgba(255, 255, 255, 0.8);
@@ -756,21 +761,31 @@ div.loading {
 ***********************************************/
 .case-study {
   padding-top: 80px;
-  background: #171717;
+  background: rgb(252, 232, 220);
+  width: 100%;
 }
 
 .case-study .content h4 {
   padding-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica, sans-serif";
   font-size: 18px;
   text-transform: uppercase;
   color: rgb(237, 162, 094);
   font-weight: bold;
 }
 
+.case-study .content .container .inner-title h1 {
+  padding-bottom: 13px;
+  font-family: "Helvetica, sans-serif";
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(007, 053, 147);
+  font-weight: bold;
+}
+
 .case-study .content p {
   font-size: 16px;
-  color: rgba(175, 175, 175, 0.8);
+  color: #000;
 }
 
 .case-study .content .btn {
@@ -786,7 +801,7 @@ div.loading {
 .box-subtitle {
   letter-spacing: 2px;
   padding: 17px 0 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica, sans-serif";
   text-transform: uppercase;
 }
 
@@ -867,6 +882,7 @@ div.loading {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+    
 }
 
 .slider-item p {
@@ -1190,7 +1206,7 @@ hr.hr-border {
 ***********************************************/
 .team {
   padding: 65px;
-  background: #0f0f0f;
+  background: rgb(252, 232, 220);
 }
 
 .team-member {
@@ -1375,14 +1391,14 @@ hr.hr-border {
  Clients Style
 ***********************************************/
 .clients.main {
-  background: url(../img/home/clients-logo-bg-2.jpg) no-repeat;
+  background:;
   background-size: cover;
   background-position: center;
   padding: 50px 0;
 }
 
 .clients {
-  padding: 65px 0;
+  padding-top: 65px 0;
 }
 
 .slider-main {
@@ -1395,9 +1411,9 @@ hr.hr-border {
 
 .testimonials-area {
   position: relative;
-  padding: 90px 75px;
+  padding: 30px 75px;
   text-align: center;
-  height: 1200px;
+  height:;
 }
 
 .testimonials-area .testimonials-description {
