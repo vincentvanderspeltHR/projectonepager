@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CLIQ</title>
+    <link rel="icon" href="images/cliqWhite.png">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -99,8 +100,8 @@
 <!-- Hero Area -section
   =========================-->
     <header class="hero-area th-fullpage" data-parallax="scroll">
-      <div class="vidContainer">
-        <video preload="true" autoplay muted loop id="myVid" style="width: 100%">
+      <div class="vidContainer" style="top: 0%; left: 0%;">
+        <video preload="true" autoplay muted loop id="myVid">
           <source src="images/headerVid.mp4" type="video/mp4" >
         </video>
       </div>
@@ -188,11 +189,13 @@
         </div>
         <!-- End of row -->
         <div class="row">
+          <br>
             <div class="content" style="text-align: center;">
             <p>
                 Na deze eerste stappen hebben we gekeken naar de intenties van Ace&tate. Welke visie hebben zij, <br>wat is het huidige verdienmodel, wat is de huidige merkbeleving en welke content strategie houden zij aan.
             </p>
             </div>
+            <br>
         </div>
         <!-- End of row -->
         <div class="row"> 
@@ -223,14 +226,18 @@
   </div>
 </section>
 
-
-  <!-- Flickity HTML init -->
-<div class="carousel"
-data-flickity='{ "freeScroll": true, "wrapAround": true, "autoPlay": true }'>
-<div class="carousel-cell"><img src="images/PRESENTATIE_V.BERLO_3.09.jpg" style="height: 500px;"></div>
-<div class="carousel-cell"><img src="images/PRESENTATIE_V.BERLO_3.010.jpg" style="height: 500px;"></div>
-<div class="carousel-cell"><img src="images/PRESENTATIE_V.BERLO_3.011.jpg" style="height: 500px;"></div>
+<div class="row">
+  <div class="col-md-4">
+    <img src="images/PRESENTATIE_V.BERLO_3.09.jpg" style="width: 100%;">
+  </div>
+  <div class="col-md-4">
+    <img src="images/PRESENTATIE_V.BERLO_3.010.jpg" style="width: 100%;">
+  </div>
+  <div class="col-md-4">
+    <img src="images/PRESENTATIE_V.BERLO_3.011.jpg" style="width: 100%;">
+  </div>
 </div>
+
 
   <!-- Flickity HTML init -->
   <div class="carousel"
@@ -385,10 +392,11 @@ data-flickity='{ "freeScroll": true, "wrapAround": true, "autoPlay": true }'>
   </div>
 </section>
 
-  <div class="imgContainer">
-    <video src="images/ACE AND TATE CASE VIDEO.mov" id="myImg" style="width: 100%">
-  </div>
-  
+<div class="vidContainer" style="position: relative;">
+  <video preload="true" autoplay loop id="myVid">
+    <source src="images/headerVid.mp4" type="video/mp4" >
+  </video>
+</div>  
 
 <!-- Iteraties -->
 
@@ -745,7 +753,7 @@ data-flickity='{ "freeScroll": true, "wrapAround": true, "autoPlay": true }'>
                         <div class="col-md-12">
                             <div class="copyright">
                                 <p>&copy; 2019-2020<br>
-                                    Developed By <a href="https://3.basecamp.com/4250144/projects/13585424">CLIQ</a></p>
+                                    Developed By <a href="https://3.basecamp.com/4250144/projects/13585424" target="_blank" style="color: rgb(007, 053, 147)">CLIQ</a></p>
                             </div>
                         </div>
                     </div>

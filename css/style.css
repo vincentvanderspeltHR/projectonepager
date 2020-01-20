@@ -372,8 +372,6 @@ button:hover, button:focus {
 
 .vidContainer {
   position: absolute;
-  top: 0%;
-  left: 0%;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -382,7 +380,7 @@ button:hover, button:focus {
 .myVid {
   position: absolute;
   z-index: -1;
-  width: 100%;
+  width: 100% !important; 
 }
 
 .imgContainer {
